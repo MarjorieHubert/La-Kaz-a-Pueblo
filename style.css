@@ -47,20 +47,24 @@ body {
 
 /*Sections*/
 
-/*Index*/
-.who, .photos {
-  border-radius: 45px;
-  padding: 15px;
-  margin: 15px;
-  margin-top: 30px;
+.photos {
+  display: flex;
+  justify-content: center;
 }
 
 .carousel {
-  border-radius: 45px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.carousel img {
+  border-radius: 30px;
+  height: 400px;
+  width: 450px;
+  /*Attention une fois le carousel hover, le carousel ne défile plus*/
   padding: 15px;
   margin: 15px;
   text-align: center;
-  padding-bottom: 25px;
 }
 
 /*Section contact*/
