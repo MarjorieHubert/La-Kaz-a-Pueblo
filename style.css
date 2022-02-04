@@ -1,11 +1,12 @@
 body {
   background-color: bisque;
+  margin: 0;
 }
 
 /*Header*/
 
 header {
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 .navbar {
@@ -47,13 +48,12 @@ header {
 
 /*Sections*/
 
-main {
-  display: flex;
-  /*flex-wrap: wrap;*/
+.img-accueil { 
+  width: 100%;
 }
 
-.img-accueil {
-  border-radius: 10%;
+.who {
+  padding-bottom: 20px;
 }
 
 .photos {
@@ -72,7 +72,11 @@ main {
   width: 450px;
   /*Attention une fois le carousel hover, le carousel ne défile plus*/
   padding: 15px;
-  margin: 15px;
+  /*margin: 40px;*/
+}
+
+.carousel-control-prev, .carousel-control-next {
+  display: none;
 }
 
 /*Section contact*/
@@ -221,7 +225,7 @@ footer ul li a:hover {
   list-style-type: none;
 }
 
-/*Média queries*/
+/*Média queries
 
 @media screen and (min-width: 992px) { 
   .navbar-nav > .nav-item > .nav-link { 
@@ -253,7 +257,7 @@ footer ul li a:hover {
     display: initial;
   }
 
-  /*Contact/Rejoignez-nous*/
+  /*Contact/Rejoignez-nous
 
   .join_row {
     text-align: left;
@@ -304,3 +308,4 @@ footer ul li a:hover {
     min-width: 70%;
   }
 }
+*/
