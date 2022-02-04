@@ -4,8 +4,8 @@ body {
 
 /*Header*/
 
-.img-accueil {
-  width: 100%;
+header {
+  padding-bottom: 70px;
 }
 
 .navbar {
@@ -47,6 +47,15 @@ body {
 
 /*Sections*/
 
+main {
+  display: flex;
+  /*flex-wrap: wrap;*/
+}
+
+.img-accueil {
+  border-radius: 10%;
+}
+
 .photos {
   display: flex;
   justify-content: center;
@@ -64,7 +73,6 @@ body {
   /*Attention une fois le carousel hover, le carousel ne défile plus*/
   padding: 15px;
   margin: 15px;
-  text-align: center;
 }
 
 /*Section contact*/
