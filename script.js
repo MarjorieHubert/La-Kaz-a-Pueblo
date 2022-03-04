@@ -2,7 +2,7 @@ const onglets = document.querySelectorAll('.onglets');
 const contenu = document.querySelectorAll('.contenu');
 let index = 0;
 
-onglets.forEach(onglet=> {
+onglets.forEach(onglet => {
   onglet.addEventListener('click', () => {
     if(onglet.classList.contains('active')) {
       return;
