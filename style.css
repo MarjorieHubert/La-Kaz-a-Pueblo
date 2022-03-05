@@ -53,11 +53,6 @@ body {
 }
 
 /*Sections*/
-/*
-main {
-  position: relative;
-  height: 100%;
-}*/
 
 .container-fluid {
   padding: 10px;
@@ -118,30 +113,34 @@ main {
     cursor: pointer;
   }
 
-  .contenu {
-    height: 90%;
-    width: 100%;
-    position: absolute;
-    opacity: 0;
-  }
-
   .contenu h3 {
-    padding: 20px;
+    padding : 15px;
+    margin: 0;
   }
 
   .contenu hr {
     width: 20%;
     height: 2px;
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-top: 0;
     background-color: rgb(61, 61, 61);
     border: none;
   }
 
-  .contenu p {
-    padding: 20px;
+  td.cell {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
-  /*Anim*/
+  .divBlank {
+    height: 70px;
+  }
+
+  /*Onglets dynamiques JS carte*/
+
+  .contenu2, .contenu3, .contenu4 {
+    display: none;
+  }
 
   .container-onglets .active {
     background-color: rgb(255, 136, 0);
