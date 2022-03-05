@@ -73,7 +73,7 @@ body {
 
 .carousel {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 
 .carousel img {
@@ -160,6 +160,15 @@ body {
       opacity: 1;
     }
   }
+
+
+/*Galerie photos*/
+
+.imgGalery {
+  width: 90%;
+  margin: 15px;
+  border-radius: 10px;
+}
 
 /*Footer*/
 
