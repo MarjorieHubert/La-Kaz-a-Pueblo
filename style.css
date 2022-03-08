@@ -201,7 +201,7 @@ footer ul li a:hover {
   list-style-type: none;
 }
 
-/*Média queries
+/*Média queries*/
 
 @media screen and (min-width: 992px) { 
   .navbar-nav > .nav-item > .nav-link { 
@@ -214,58 +214,51 @@ footer ul li a:hover {
     background-color: rgba(0, 0, 0, 0.294);
   }
 
-  .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.781);
-    display: none;
-  }
-
-  .nav-item:hover > ul {
-    display: block;
-  }
-
-  .adress {
+  .img-accueil {
     width: 50%;
-    margin: auto;
-    margin-top: 25px;
-  }
-
-  .svg {
-    display: initial;
-  }
-
-  /*Contact/Rejoignez-nous
-
-  .join_row {
-    text-align: left;
-  }
-
-  .col-12.col-lg-3.mb-4.mt-2.btn_post_contain {
-    text-align: center;
+    max-height: 400px;
+    max-width: 610px;
+    border-radius: 50%;
     position: relative;
+    top: 90px;
+    left: 20px;
   }
 
-  .btn_postuler {
+  .who {
     position: absolute;
-    top: 25%;
+    top: 100px;
+    left: 60%;
+    width: 400px;
   }
 
-  .relative_btn {
-    position: relative;
+  .carousel {
+    padding-top: 30px;
   }
 
-  .btn_postuler_2 {
+  .photos {
     position: absolute;
-    top: 25%;
+    top: 550px;
+    width: 98%;
+  }
+
+  .carousel img {
+    height: 400px;
+    width: 500px;
+  }
+
+  footer {
+    position: absolute;
+    top: 1000px;
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 1060px) {
-  .img-accueil {
-    max-height: 500px;
-  }
+@media screen and (min-width: 1360px) {
 
-  .who , .values {
-    max-width: 70%;
+  .who {
+    width: 650px;
+    top: 120px;
+    left: 50%;
   }
 
   .missions {
@@ -277,11 +270,4 @@ footer ul li a:hover {
   .title_missions {
     align-self: center;
   }
-
-  .carousel {
-    padding-top: 25px;
-    max-width: 70%;
-    min-width: 70%;
-  }
 }
-*/
