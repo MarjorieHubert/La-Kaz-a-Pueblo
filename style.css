@@ -251,6 +251,61 @@ footer ul li a:hover {
     top: 1000px;
     width: 100%;
   }
+
+  /*Carte*/
+
+  .img-accueil-contact {
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .contactMain {
+    position: relative;
+    top: 150px;
+  }
+
+  .container-onglets, .active {
+    width: 100%;
+  }
+
+  .divBlank {
+    display: none;
+  }
+
+  .footer-carte {
+    position: relative;
+    top: 200px;
+  }
+
+  /*Galerie*/
+
+  .img-accueil-galery {
+    display: none;
+  }
+
+  /*Contact*/
+
+  .img-accueil-contact {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .mainContact {
+    position: relative;
+    top: 150px;
+  }
+
+  iframe {
+    width: 500px;
+    height: 500px;
+    padding-top: 20px;
+  }
+
+  .footerContact {
+    position: relative;
+    top: 300px;
+  }
 }
 
 @media screen and (min-width: 1360px) {
