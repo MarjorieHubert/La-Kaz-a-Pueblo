@@ -161,6 +161,15 @@ body {
     }
   }
 
+/*Evenements*/
+
+.eventSection {
+  padding: 10px;
+}
+
+.eventTitle {
+  text-align: center;
+}
 
 /*Galerie photos*/
 
