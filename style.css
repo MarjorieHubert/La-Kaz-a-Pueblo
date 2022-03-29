@@ -5,11 +5,11 @@
 }
 
 html {
-  font-family: sans-serif;
   height: 100%;
 }
 
 body {
+  font-family: 'Lexend Deca', sans-serif;
   background-color: bisque;
 }
 
@@ -178,6 +178,17 @@ body {
   margin: 15px;
   border-radius: 10px;
 }
+
+/*Contact*/
+
+.contactBtnFb {
+  text-decoration: none;
+}
+
+svg, .contactLinkFb {
+  color: white;
+}
+
 
 /*Footer*/
 
