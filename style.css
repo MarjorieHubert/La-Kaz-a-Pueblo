@@ -303,6 +303,24 @@ footer ul li a:hover {
     display: none;
   }
 
+  .galeryMain {
+    margin-top: 100px;
+  }
+
+  .galeryFooter {
+    position: initial;
+  }
+
+  /*Evenements*/
+
+  .eventMain {
+    margin-top: 100px;
+  }
+
+  .eventFooter {
+    position: initial;
+  }
+
   /*Contact*/
 
   .img-accueil-contact {
